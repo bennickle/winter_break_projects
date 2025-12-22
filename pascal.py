@@ -16,4 +16,5 @@ def binomial(N):
             numlist.append(choose(i,j))
         print(numlist)
 
-binomial(5)
+in_num = int(input("Number: "))
+binomial(in_num)
